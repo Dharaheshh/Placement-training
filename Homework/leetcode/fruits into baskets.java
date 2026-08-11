@@ -1,5 +1,7 @@
+package leetcode;
 import java.util.*;
-class Solution {
+
+class fruits_into_baskets {
     public int totalFruit(int[] fruits) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int l = 0;
