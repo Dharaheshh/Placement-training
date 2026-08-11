@@ -30,6 +30,10 @@ class Car implements Vehicle, Electric {
 
 class interfacee {
     public static void main(String[] args) {
+        Vehicle v = new Car();
+        v.start();
+        v.stop();
+        v.displayType();
         Car c = new Car();
         c.start();
         c.charge();
