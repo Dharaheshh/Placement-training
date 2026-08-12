@@ -9,5 +9,11 @@ class arithmetic_exception {
         } catch (ArithmeticException e) {
             System.out.println("0 division error");
         }
+        try {
+            String str =" null";
+            System.out.println(str.length());
+        } catch (NullPointerException e) {
+            System.out.println("Null pointer exception");
+        }
     }
 }
