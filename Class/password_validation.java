@@ -2,10 +2,6 @@ package Class;
 
 public class password_validation {
     public static void main(String[] args) {
-        //ask user to enter password
-        //password must be at least 8 characters long
-        //throw custom exception if password is invalid
-        //else print "Password is valid"
         String password = "Dharaheshh@123";
         try {
             validatePassword(password);
@@ -23,8 +19,6 @@ public class password_validation {
         }
     }
 }
-
-
 class invalidPasswordException extends Exception {
     public invalidPasswordException(String message) {
         super(message);
