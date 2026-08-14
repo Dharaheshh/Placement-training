@@ -13,7 +13,6 @@ public class arraylist_seperate_mul10 {
         int j = 0;
         for (int i = 0; i < n; i++) {
             if (list.get(i) % 10 != 0) {
-                // swap list[i] and list[j]
                 int temp = list.get(i);
                 list.set(i, list.get(j));
                 list.set(j, temp);

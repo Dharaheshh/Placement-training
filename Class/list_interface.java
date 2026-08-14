@@ -1,7 +1,6 @@
 package Class;
 
-public class arraylist {
-    //basic list interface program
+public class list_interface {
     public static void main(String[] args) {
         java.util.ArrayList<String> list = new java.util.ArrayList<>();
         list.add("Dharaheshh");

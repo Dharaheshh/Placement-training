@@ -10,7 +10,6 @@ abstract class BankAccount {
         this.balance = 0;
     }
 
-    // Constructor 2 - constructor overloading
     BankAccount(int accountNumber, String holderName, double balance) {
         this.accountNumber = accountNumber;
         this.holderName = holderName;
@@ -30,12 +29,10 @@ abstract class BankAccount {
         System.out.println("Balance: " + balance);
     }
 
-    // Getter for balance
     double getBalance() {
         return balance;
     }
 
-    // Setter for balance
     void setBalance(double balance) {
         this.balance = balance;
     }
@@ -83,7 +80,6 @@ class CurrentAccount extends BankAccount {
 class Main {
     public static void main(String[] args) {
 
-        // Polymorphism
         BankAccount a1 = new SavingsAccount(101, "Dharaheshh", 5000);
         BankAccount a2 = new CurrentAccount(102, "Arun", 2000);
 

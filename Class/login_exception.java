@@ -4,8 +4,8 @@ public class login_exception {
     public static void main(String[] args) {
         login l = new login("admin", "password");
         try {
-            l.login("admin", "password");
-            l.login("user", "pass");
+            l.authenticate("admin", "password");
+            l.authenticate("user", "pass");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -18,7 +18,7 @@ class login {
         this.username = username;
         this.password = password;
     }
-    void login(String username, String password) throws Exception {
+    void authenticate(String username, String password) throws Exception {
         if (this.username.equals(username) && this.password.equals(password)) {
             System.out.println("Login successful");
         } else {
