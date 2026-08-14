@@ -3,7 +3,7 @@ package Class;
 public class custom_exception {
     public static void main(String[] args) {
         bankaccount b = new bankaccount(1000);
-        custom_exception ce = new custom_exception();
+        //custom_exception ce = new custom_exception();
         try {
             b.withdraw(500);
             b.withdraw(600);
