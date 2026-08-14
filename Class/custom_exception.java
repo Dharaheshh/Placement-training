@@ -1,5 +1,5 @@
 package Class;
-
+//N
 public class custom_exception {
     public static void main(String[] args) {
         bankaccount b = new bankaccount(1000);
