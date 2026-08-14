@@ -19,9 +19,9 @@ public class Task_12 {
         account1.setMobileNumber("9999999999");
         System.out.println("\nUpdated Mobile Number for Account 1: " + account1.getMobileNumber());
 
-        account1.deposit(-1000); // Invalid deposit
-        account1.withdraw(-500); // Invalid withdrawal
-        account1.withdraw(100000); // Insufficient balance
+        account1.deposit(-1000); 
+        account1.withdraw(-500); 
+        account1.withdraw(100000); 
 
         System.out.println("\nAccount 2:");
         account2.displayAccountDetails();
