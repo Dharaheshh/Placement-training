@@ -26,7 +26,6 @@ class BankAccount10 {
         this.accountType = accountType;
         this.balance = balance;
     }
-    // create deposit and withdraw methods
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
