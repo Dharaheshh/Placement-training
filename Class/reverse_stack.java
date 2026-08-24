@@ -12,7 +12,7 @@ public class reverse_stack {
             stack.push(el);
         }
         for(int j=0;j<n;j++){
-            System.out.print(stack.pop()+" ");
+            System.out.print(new StringBuilder(stack.pop()).reverse().toString()+" ");
         }
     }
 }
