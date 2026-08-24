@@ -15,7 +15,6 @@ public class reverse_stack {
         //     System.out.print(new StringBuilder(stack.pop()).reverse().toString()+" ");
         // }
         for(int j=0;j<n;j++){
-            //use stack to reverse the individual word do not use string builder
             String word = stack.pop();
             Stack<Character> charStack = new Stack<>();
             for (char c : word.toCharArray()) {
