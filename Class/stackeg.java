@@ -23,8 +23,8 @@ public class stackeg {
                     break;
                 case 2:
                     if (!stack.isEmpty()) {
-                        int poppedElement = stack.pop();
-                        System.out.println("Popped element: " + poppedElement);
+                        int pe = stack.pop();
+                        System.out.println("Popped element: " + pe);
                     } else {
                         System.out.println("Stack is empty.");
                     }
