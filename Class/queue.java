@@ -2,7 +2,6 @@ package Class;
 import java.util.*;
 public class queue {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Queue<Integer> queue = new LinkedList<>();
         queue.add(10);
         queue.add(20);
