@@ -1,7 +1,7 @@
 package Class;
 import java.util.*;
 public class queue_task {
-    class printer{
+    static class printer{
         String name;
         String task;
         printer(String name,String task){
@@ -31,7 +31,7 @@ public class queue_task {
             p5.display();
             System.out.println("Enter the printer number you want to add to the queue (1-5):");
             int choice = sc.nextInt();
-            sc.nextLine(); // Consume the newline character
+            sc.nextLine();
             printer p;
             switch(choice) {
                 case 1:
