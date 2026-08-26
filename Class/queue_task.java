@@ -17,7 +17,7 @@ public class queue_task {
     public static void main(String[] args) {
         Queue<printer> queue = new LinkedList<>();
         printer p1 = new printer("Dharaheshh","Task1");
-        printer p2 = new printer("John","Task2");
+        printer p2 = new printer("John","Task22");
         printer p3 = new printer("Doe","Task3");
         printer p4 = new printer("Jane","Task4");
         printer p5 = new printer("Smith","Task5");
