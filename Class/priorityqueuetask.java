@@ -11,11 +11,10 @@ class panel{
 }
 public class priorityqueuetask {
     public static void main(String[] args) {
-        PriorityQueue<panel> q = new PriorityQueue<>((a,b) -> b.panel_no - a.panel_no);
+        PriorityQueue<panel> q = new PriorityQueue<>((a,b) -> a.panel_no - b.panel_no);
         q.add(new panel(1, "Panel 1", 10));
         q.add(new panel(2, "Panel 2", 5));
         q.add(new panel(3, "Panel 3", 15));
-        //print the output of the priority queue
         System.out.println("Priority Queue: ");
         while(!q.isEmpty()){
             panel p = q.poll();
