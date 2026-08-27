@@ -37,8 +37,8 @@ public class pqtask2 {
         pq.add(new Patient("BBBB", 3, 5, 40));
         pq.add(new Patient("CCCC", 5, 20, 30));
 
-        System.out.println(pq.poll().name); // CCCC
-        System.out.println(pq.poll().name); // BBBB
-        System.out.println(pq.poll().name); // AAAA
+        System.out.println(pq.poll().name); 
+        System.out.println(pq.poll().name); 
+        System.out.println(pq.poll().name); 
     }
 }
