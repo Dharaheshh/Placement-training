@@ -12,6 +12,14 @@ class menu{
             System.out.println(s + " : " + menu_items.get(s));
         }
     }
+    void display_max_price(){
+        int max_price = Collections.max(menu_items.values());
+        for(String s: menu_items.keySet()){
+            if(menu_items.get(s) == max_price){
+                System.out.println("Item with maximum price: " + s + " : " + max_price);
+            }
+        }
+    }
 
 }
 public class hashmap {
@@ -21,5 +29,6 @@ public class hashmap {
         m.add("Pizza", 100);
         m.add("Pasta", 80);
         m.display();
+        m.display_max_price();
     }
 }
